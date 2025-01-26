@@ -8,6 +8,7 @@ const sequelize = require('../config/database');
 
 class Habit extends Model {}
 
+
 Habit.init(
     {
         id: {
