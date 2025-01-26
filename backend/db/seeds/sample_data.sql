@@ -10,6 +10,7 @@ VALUES
 (1, 'Morning Run', 'Run 5km every morning to stay fit.', 'daily'),
 (1, 'Read a Book', 'Read at least one chapter from a book.', 'daily');
 
+
 -- Insert sample habits for the second user (jane_smith)
 INSERT INTO habits (user_id, title, description, frequency)
 VALUES
