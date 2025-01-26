@@ -6,6 +6,7 @@ exports.createHabit = async (req, res) => {
     const userId = req.user.id; // Extract user ID from JWT payload
     const { title, description, frequency } = req.body;
 
+	
     try {
 	await db.promise().query(
 	    'INSERT INTO habits (user_id, title, description, frequency) VALUES (?, ?, ?, ?)',
